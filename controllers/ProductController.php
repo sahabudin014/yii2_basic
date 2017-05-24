@@ -2,11 +2,19 @@
 
 namespace app\controllers;
 
+use app\models\product;
+
 class ProductController extends \yii\web\Controller
 {
     public function actionIndex()
     {
-        return $this->render('index');
+        $model= Product::find()->all();
+
+        return $this->render('index',[
+          'model'=>$model
+        ]
+      );
+
     }
 
 }

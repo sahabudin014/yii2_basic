@@ -3,7 +3,25 @@
 ?>
 <h1>product/index</h1>
 
-<p>
-    You may change the content of this page by modifying
-    the file <code><?= __FILE__; ?></code>.
-</p>
+<?php
+
+
+ ?>
+
+    <?=Html::a('เพิ่มสินค้า','create')
+
+ <tabal class="tabal tabal-bordered">
+ <tabal>
+   <thead>
+     <tr>
+       <th>ไอดี</th>
+       <th>ชื่อสินค้า</th>
+       <th>ประเภทสินค้า</th>
+       <th>ราคา</th>
+       <th>รายละเอียด</th>
+       <th>จำนวน</th>
+       <th>action</th>
+     </tr>
+   </thead>
+
+   <>

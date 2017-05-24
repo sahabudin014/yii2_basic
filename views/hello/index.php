@@ -6,5 +6,3 @@
 <?=$hight?><br/>
 <labal >นำ้หนัก</labal>
 <?=$wegit?>
-<labal >เพศ</labal>
-<?=$status?>
